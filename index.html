@@ -53,7 +53,17 @@
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
-        app.initialize();
+	function dancenow(){
+		var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+		console.log("tes");
+		console.log("tes");
+	}
+       document.addEventListener('deviceready', dancenow, false);
     </script>
 </body>
 
