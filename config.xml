@@ -23,12 +23,24 @@
         <preference name="AndroidLaunchMode" value="singleTop" />
         <preference name="android-minSdkVersion" value="16" />
         <allow-intent href="market:*" />
-        <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
-        <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
-        <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
-        <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
-        <icon density="xxhdpi" src="res/icon/android/icon-144-xxhdpi.png" />
-        <icon density="xxxhdpi" src="res/icon/android/icon-192-xxxhdpi.png" />
+        <icon   src="www/res/icon/android/drawable-ldpi-icon.png"               density="ldpi" />
+        <icon   src="www/res/icon/android/drawable-mdpi-icon.png"               density="mdpi" />
+        <icon   src="www/res/icon/android/drawable-hdpi-icon.png"               density="hdpi" />
+        <icon   src="www/res/icon/android/drawable-xhdpi-icon.png"              density="xhdpi" />
+        <icon   src="www/res/icon/android/drawable-xxhdpi-icon.png"             density="xxhdpi" />
+        <icon   src="www/res/icon/android/drawable-xxxhdpi-icon.png"            density="xxxhdpi" />
+        <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      density="land-ldpi" />
+        <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      density="land-mdpi" />
+        <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      density="land-hdpi" />
+        <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png"     density="land-xhdpi" />
+        <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png"    density="land-xxhdpi" />
+        <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png"   density="land-xxxhdpi" />
+        <splash src="www/res/screen/android/drawable-port-ldpi-screen.png"      density="port-ldpi" />
+        <splash src="www/res/screen/android/drawable-port-mdpi-screen.png"      density="port-mdpi" />
+        <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"      density="port-hdpi" />
+        <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"     density="port-xhdpi" />
+        <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"    density="port-xxhdpi" />
+        <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   density="port-xxxhdpi" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
